@@ -14,12 +14,12 @@
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.2s ease; /* Add a smooth transition */
-  width: 300px;
 }
 
 .card img {
   height: 300px;
   width: 100%;
+  object-fit: cover ;
 }
 
 .card .card-text {

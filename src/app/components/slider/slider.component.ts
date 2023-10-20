@@ -66,7 +66,7 @@ export class SliderComponent implements AfterViewInit {
     $(this.el.nativeElement).find('.slick-slider').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       responsive: [
         {
@@ -78,7 +78,8 @@ export class SliderComponent implements AfterViewInit {
         {
           breakpoint: 576, // Adjust this value as needed
           settings: {
-            slidesToShow: 1, // Number of slides to show on this breakpoint
+            slidesToShow: 1,
+            arrows:false,// Number of slides to show on this breakpoint
           }
         }
         // Add more breakpoints and settings as needed

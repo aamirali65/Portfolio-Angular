@@ -1,7 +1,7 @@
 .main-div{
   position: relative;
-  z-index: 99;
-  margin: 2.8rem;
+  z-index: 9;
+  margin: 0.5rem 2.8rem;
 }
 .address{
   background-color: #222222;
@@ -38,10 +38,11 @@ ul li{
   border: none;
 }
 .contact ul{
-  display: flex;
   padding: 0;
-    flex-wrap: wrap;
 }
 .email{
   padding-left: 20px;
+}
+.lix{
+  display: flex;
 }

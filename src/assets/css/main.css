@@ -188,4 +188,26 @@
   color: #eb4a4c;
 }
 /* breadcrubwith heading end  */
-
+#ori-header {
+  padding: 3rem 2rem !important;
+}
+.mobile_menu_button {
+top: -23px !important;
+}
+.mobile_menu_button i{
+color: white !important;
+}
+.mobile_menu_content{
+background-color: #000000 !important;
+}
+.mobile_menu_content .mobile-main-navigation .navbar-nav li a{
+color: white !important;
+}
+.mobile_menu .mobile_menu_close i{
+color: white !important;
+}
+.mobile_menu .mobile_menu_close {
+top: 30px !important;
+right: 36px !important;
+font-size: 22px !important;
+}

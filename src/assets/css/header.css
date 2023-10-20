@@ -24,10 +24,7 @@ body {
     background-color: #000 !important;
     font-family: 'poppins' !important;
 }
-h1{
-    font-family: 'Arimo' !important;
 
-}
 
 body .container {
     max-width: 1310px;
@@ -1468,7 +1465,7 @@ header.sticky {
 .mobile_menu_content .mobile-main-navigation .navbar-nav li a {
     padding: 0;
     width: 100%;
-    color: #000 !important;
+    color: #000 ;
     display: block;
     font-weight: 600;
     font-size: 14px;
@@ -15038,9 +15035,6 @@ Font load
     width: 100%;
 }
 
-.mobile_menu .mobile_menu_close i {
-    color: #000 !important;
-}
 
 .service_image img {
     width: 100%;
@@ -15273,7 +15267,7 @@ Font load
         line-height: 0px !important;
     }
     .text p:nth-child(1) {
-        font-size: 12px !important;
+        font-size: 12px ;
     }
     .ori-service-process-item {
         height: 245px;

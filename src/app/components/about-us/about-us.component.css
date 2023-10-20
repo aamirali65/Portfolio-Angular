@@ -1,6 +1,5 @@
 .image{
   width: 300px;
-  height: 300px;
   margin: auto;
 }
 .image img{
@@ -33,8 +32,8 @@
 }
 .extra-div{
   position: relative;
-  z-index: 11 !important;
-  transform: translateY(7rem);
+  z-index: 9 !important;
+  transform: translateY(3rem);
   margin: 0 5rem;
 }
 .lines{
