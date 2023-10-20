@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="slick-slider">
+    <div *ngFor="let image of images" class="card">
+      <img [src]="image.image" alt="{{image.name}}">
+      <a class="card-text" href="#">
+        <h3>{{image.name}}</h3>
+      </a>
+    </div>
+  </div>
+</div>

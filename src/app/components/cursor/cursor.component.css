@@ -1,7 +1,7 @@
 .cursor-outer {
   position: fixed;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border: 2px solid #eb4a4c;
   border-radius: 50%;
   pointer-events: none;
@@ -9,6 +9,7 @@
   transition: transform 0.1s, background-color 0.1s, opacity 0.1s;
   mix-blend-mode: difference;
   z-index: 999;
+  transition: .15s;
 }
 
 .cursor-inner {
@@ -20,7 +21,7 @@
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  transition: opacity 0.10s;
+  transition: .10s;
   z-index: 1000;
 }
 
@@ -42,10 +43,8 @@
   height: 80px;
   background-color: #eb4a4c;
   opacity: 0.3;
+  transition: .15s;
 }
 .cursor-outer.extra-class {
   opacity: 0;
-}
-.extra-class{
-  transition: 0.15s all;
 }

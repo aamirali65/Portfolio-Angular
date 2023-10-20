@@ -124,9 +124,10 @@
   }
 
 }
+/* button start */
 .theme_btn{
   text-decoration: none;
-  color: #fff;
+  color: #fff !important;
   display: inline-block;
   background-color: #EB4A4C;
   padding: 15px 50px;
@@ -138,15 +139,16 @@
   font-size: 16px;
   transition: all 0.3s ease;
 }
-
 .theme_btn:hover{
   background-color: white !important;
   color: #EB4A4C !important;
 }
-.main-div a{
+
+/* button end */
+/* .main-div a{
   position: relative;
   z-index: 999;
-}
+} */
 
 
 /* breadcrubwith heading  */
@@ -186,3 +188,4 @@
   color: #eb4a4c;
 }
 /* breadcrubwith heading end  */
+

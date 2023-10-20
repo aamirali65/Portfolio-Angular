@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -10,6 +10,8 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ContentComponent } from './components/content/content.component';
 import { CursorComponent } from './components/cursor/cursor.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { TextAnimationComponent } from './components/text-animation/text-animation.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,14 @@ import { CursorComponent } from './components/cursor/cursor.component';
     ContactUsComponent,
     PortfolioComponent,
     ContentComponent,
-    CursorComponent
+    CursorComponent,
+    SliderComponent,
+    TextAnimationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

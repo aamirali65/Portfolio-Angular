@@ -46,6 +46,15 @@ border-bottom: 1px solid black;
   position: absolute;
 }
 #ori-header{
-padding: 2rem 6rem;
+padding: 1rem 6rem;
 }
 
+.brand-logo a{
+  font-family: cursive;
+  font-size: 38px;
+  color: #fff;
+}
+
+.brand-logo span{
+  color: #eb4a4c !important;
+}

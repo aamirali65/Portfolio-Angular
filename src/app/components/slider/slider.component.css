@@ -1,0 +1,48 @@
+.slider {
+  width: 100%;
+  margin: 0 auto;
+}
+.slick-slider{
+  margin: 0 8rem;
+}
+
+.card {
+  margin: 15px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease; /* Add a smooth transition */
+  width: 300px;
+}
+
+.card img {
+  height: 300px;
+  width: 100%;
+}
+
+.card .card-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(-100%); /* Initially positioned above */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.card:hover .card-text {
+  opacity: 1; /* Show the text */
+  transform: translateY(0); /* Move the text into view */
+}
