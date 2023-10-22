@@ -27,9 +27,6 @@
   height: 250px !important;
   object-fit: cover;
 }
-  .slick-slider{
-    margin: 0 1rem !important;
-  }
   .address {
     font-size: 13px !important;
     width: 100% !important;
@@ -124,6 +121,10 @@ ul li textarea {
 }
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
+  .loading-text {
+    letter-spacing: 10px !important;
+    font-size: 20px !important;
+ }
   .content h3{
     font-size: 28px !important;
     margin-bottom: 10px !important;
@@ -214,6 +215,10 @@ ul li textarea {
 }
 
 @media only screen and (min-width: 300px) and (max-width: 424px) {
+  .loading-text {
+    letter-spacing: 5px !important;
+    font-size: 20px !important;
+ }
   /* home main  */
   .mobile_menu_button i {
     font-size: 16px !important;

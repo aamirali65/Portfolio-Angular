@@ -1,18 +1,20 @@
-import { Component, HostListener, ElementRef, ViewChild } from "@angular/core";
+import { Component, HostListener, ElementRef, ViewChild, OnInit } from "@angular/core";
 import * as $ from "jquery";
 import { OnDestroy } from "@angular/core";
 import { Router, NavigationEnd } from "@angular/router";
 import { Subscription } from "rxjs";
+import {PreloaderService} from '../../service/preloader.service'
+import { Observable } from 'rxjs';
 
 @Component({
   selector: "app-header",
   templateUrl: "./header.component.html",
   styleUrls: ["./header.component.css"],
 })
-export class HeaderComponent {
+export class HeaderComponent{
   isSticky: boolean = false;
   private routeSub: Subscription;
-  constructor(private router: Router) {
+  constructor(private router: Router,private preloaderService: PreloaderService) {
     this.routeSub = this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
         document.body.classList.remove("mobile_menu_overlay_on");
@@ -20,6 +22,7 @@ export class HeaderComponent {
     });
   }
   ngOnInit() {
+
     window.addEventListener("scroll", this.scroll, true);
 
     const navSidebarButton = document.querySelector(".navSidebar-button");

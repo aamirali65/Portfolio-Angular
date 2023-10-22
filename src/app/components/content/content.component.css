@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Poppins-Bold'), url('src/assets/fonts/Poppins/Poppins-Bold.ttf') format('woff2');
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -12,8 +18,9 @@
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 20px;
-
+  font-family: 'Poppins', sans-serif;
 }
+
 .content h3>span{
   color: #EB4A4C !important;
 }

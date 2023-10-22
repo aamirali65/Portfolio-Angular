@@ -2,9 +2,9 @@
   width: 100%;
   margin: 0 auto;
 }
-.slick-slider{
+/* .slick-slider{
   margin: 0 8rem;
-}
+} */
 
 .card {
   margin: 15px;
@@ -13,16 +13,17 @@
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
-  transition: transform 0.2s ease; /* Add a smooth transition */
+  transition: transform 0.2s ease;
+  border: 1px solid;
 }
 
 .card img {
   height: 300px;
   width: 100%;
-  object-fit: cover ;
+  object-fit: cover !important;
 }
 
-.card .card-text {
+/* .card .card-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -33,10 +34,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  opacity: 0; /* Initially hidden */
-  transform: translateY(-100%); /* Initially positioned above */
+  opacity: 0;
+  transform: translateY(-100%);
   transition: opacity 0.3s ease, transform 0.3s ease;
-}
+} */
 
 .card:hover {
   transform: scale(1.05); /* Scale up on hover */

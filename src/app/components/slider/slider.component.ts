@@ -10,52 +10,20 @@ declare var $: any; // Import jQuery
 export class SliderComponent implements AfterViewInit {
   images = [
     {
-      name: 'Item 1',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/1-6.jpg'
+      image: 'assets/img/portfolio/img-1.PNG'
+    },
+
+    {
+      image: 'assets/img/portfolio/img-3.PNG'
     },
     {
-      name: 'Item 2',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/2-4.jpg'
+      image: 'assets/img/portfolio/img-4.PNG'
     },
     {
-      name: 'Item 3',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/1-6.jpg'
+      image: 'assets/img/portfolio/img-5.PNG'
     },
-    {
-      name: 'Item 4',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/2-4.jpg'
-    },
-    {
-      name: 'Item 5',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/1-6.jpg'
-    },
-    {
-      name: 'Item 6',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/2-4.jpg'
-    },
-    {
-      name: 'Item 5',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/1-6.jpg'
-    },
-    {
-      name: 'Item 6',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/2-4.jpg'
-    },
-    {
-      name: 'Item 5',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/1-6.jpg'
-    },
-    {
-      name: 'Item 6',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/2-4.jpg'
-    },
-    {
-      name: 'Item 5',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/1-6.jpg'
-    },
-    {
-      name: 'Item 6',
-      image: 'https://wp.shsarker.xyz/edrea-animation/wp-content/uploads/2023/08/2-4.jpg'
+      {
+      image: 'assets/img/portfolio/img-2.PNG'
     },
     // Add more image objects as needed
   ];
@@ -66,11 +34,12 @@ export class SliderComponent implements AfterViewInit {
     $(this.el.nativeElement).find('.slick-slider').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
-      autoplay: false,
-      autoplaySpeed: 2000,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      arrows:false,
       responsive: [
         {
-          breakpoint: 768, // Adjust this value as needed
+          breakpoint: 769, // Adjust this value as needed
           settings: {
             slidesToShow: 2, // Number of slides to show on this breakpoint
           }

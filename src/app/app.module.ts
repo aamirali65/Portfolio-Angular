@@ -12,6 +12,7 @@ import { ContentComponent } from './components/content/content.component';
 import { CursorComponent } from './components/cursor/cursor.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { TextAnimationComponent } from './components/text-animation/text-animation.component';
+import { PreloaderComponent } from './components/preloader/preloader.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TextAnimationComponent } from './components/text-animation/text-animati
     ContentComponent,
     CursorComponent,
     SliderComponent,
-    TextAnimationComponent
+    TextAnimationComponent,
+    PreloaderComponent
   ],
   imports: [
     BrowserModule,
