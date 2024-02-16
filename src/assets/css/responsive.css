@@ -1,0 +1,329 @@
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .content h3 {
+    font-size: 60px !important;
+  }
+  .lines h3{
+  font-size: 40px !important;
+}
+.content .job {
+  font-size: 19px !important;
+}
+.content .text {
+  font-size: 15px !important;
+  margin-right: 7% !important;
+}
+.lines{
+  margin-right: 15% !important;
+}
+.image {
+  width: 250px !important;
+}
+.card img {
+  height: 250px !important;
+  object-fit: cover;
+}
+  .address {
+    font-size: 13px !important;
+    width: 100% !important;
+}
+.lix input {
+  width: 100%;
+}
+ul li textarea {
+  height: 8rem !important;
+  width: 100% !important;
+}
+.theme_btn {
+  padding: 14px 43px !important;
+  font-size: 14px !important;
+}
+.contact li input, textarea, .address {
+  padding: 18px 30px !important;
+}
+.breadcrub span {
+  font-size: 16px !important;
+}
+.main_title {
+  margin-bottom: 15px !important;
+  padding-bottom: 0px !important;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.content .job {
+  font-size: 20px !important;
+}
+.content h3 {
+  font-size: 50px !important;
+}
+.about{
+  margin: 0 !important;
+}
+.lines h3{
+  font-size: 35px !important  ;
+}
+.lines .job {
+  font-size: 16px !important;
+}
+.lines {
+  padding-bottom: 0 !important;
+  margin-bottom: 10px !important;
+}
+.content .text {
+  font-size: 14px;
+}
+.image {
+  width: 250px !important;
+}
+.theme_btn {
+  padding: 10px 26px !important;
+  font-size: 13px !important;
+}
+.slick-slider {
+  margin: 0 !important;
+}
+.breadcrub span {
+  font-size: 15px !important;
+}
+.address{
+  padding: 13px 25px !important;
+  margin: auto;
+  font-size: 13px !important;
+}
+.contact li input, textarea {
+  padding: 13px 25px !important;
+  width: 80% !important;
+}
+.lix {
+  display: block !important;
+}
+.email{
+  padding-left: 0 !important;
+}
+.contact{
+  display: block;
+  text-align: center;
+}
+.address-div ul{
+  padding: 0 !important;
+}
+.contact-div{
+    padding-top: 8px;
+    height: 26rem;
+    overflow-y: scroll;
+}
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .loading-text {
+    letter-spacing: 10px !important;
+    font-size: 20px !important;
+ }
+  .content h3{
+    font-size: 28px !important;
+    margin-bottom: 10px !important;
+}
+.content .job {
+  font-size: 13px !important;
+  margin-bottom: 20px !important;
+}
+.theme_btn {
+  padding: 10px 25px;
+  font-size: 12px !important;
+}
+.extra-div{
+  transform: translateY(1rem) !important;
+  margin: 0 !important;
+  height: 26rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.image {
+  width: 100% !important;
+}
+.image img {
+  margin-bottom: 30px;
+  width: 100% !important;
+  height: 300px;
+  object-fit: cover;
+}
+.lines h3 {
+  font-size: 35px !important;
+}
+.lines .job {
+  font-size: 17px !important;
+}
+.lines{
+  margin-right: 0 !important;
+}
+.text p:nth-child(1) {
+  font-size: 16px !important;
+}
+/* slider responsive  */
+.slick-slider {
+  margin: 0 !important;
+}
+.portfolio-div{
+  height: 26rem;
+  overflow-y: scroll;
+  padding-top: 1rem;
+}
+/* slider responsive  */
+
+/* contact responsive  */
+.contact-div{
+  padding-top: 8px;
+  height: 26rem;
+  overflow-y: scroll;
+}
+.address {
+  padding: 13px 25px !important;
+  gap: 1.2rem !important;
+  margin: auto;
+  font-size: 12px !important;
+  width: 100% !important;
+}
+.contact li input, textarea {
+  font-size: 12px !important;
+  padding: 13px 25px !important;
+  width: 100% !important;
+}
+.lix {
+  display: block !important;
+}
+.email{
+  padding-left: 0 !important;
+}
+.contact{
+  display: block;
+  text-align: center;
+}
+.address-div ul{
+  padding: 0 !important;
+}
+.breadcrub span {
+  font-size: 12px !important;
+}
+/* contact responsive  */
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 424px) {
+  .loading-text {
+    letter-spacing: 5px !important;
+    font-size: 20px !important;
+ }
+  /* home main  */
+  .mobile_menu_button i {
+    font-size: 16px !important;
+}
+  .content h3 {
+    font-size: 21px !important;
+    margin-bottom: 10px !important;
+}
+.content .job {
+  font-size: 10px !important;
+  margin-bottom: 10px !important;
+}
+.theme_btn {
+  padding: 10px 26px !important;
+  font-size: 9px !important;
+}
+#ori-header {
+  padding: 3rem 1rem !important;
+}
+/* home main  */
+/* about us  */
+.extra-div{
+  transform: translateY(1rem) !important;
+  margin: 0 !important;
+  height: 26rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.image {
+  width: 100% !important;
+}
+.image img {
+  margin-bottom: 30px;
+  width: 100% !important;
+  height: 300px;
+  object-fit: cover;
+}
+.lines h3 {
+  font-size: 35px !important;
+}
+.lines .job {
+  font-size: 17px !important;
+}
+.lines{
+  margin-right: 0 !important;
+}
+.text p:nth-child(1) {
+  font-size: 16px !important;
+}
+/* about us  */
+
+/* portfolio  */
+.slick-slider {
+  margin: 0 !important;
+}
+.portfolio-div{
+  height: 26rem;
+  overflow-y: scroll;
+  padding-top: 1rem;
+  margin: 1rem !important;
+}
+.breadcrub span {
+  font-size: 12px !important;
+}
+.card img {
+  height: 250px !important;
+}
+/* portfolio  */
+
+/* contact us  */
+.contact-div{
+  padding-top: 8px;
+  height: 26rem;
+  overflow-y: scroll;
+  margin: 1rem !important;
+
+}
+.address {
+  padding: 13px 20px !important;
+  gap: 1rem !important;
+  margin: auto;
+  font-size: 10px !important;
+  width: 100% !important;
+}
+.contact li input, textarea {
+  font-size: 10px !important;
+  padding: 13px 20px !important;
+  width: 100% !important;
+}
+.lix {
+  display: block !important;
+}
+.email{
+  padding-left: 0 !important;
+}
+.contact{
+  display: block;
+  text-align: center;
+}
+.address-div ul{
+  padding: 0 !important;
+}
+.main_title h3 {
+  font-size: 20px !important;
+}
+/* contact us  */
+}
+

@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="slick-slider">
+    <div *ngFor="let image of images" class="card">
+      <a class="card-text" href="{{ image.image }}" target="_blank">
+      <img [src]="image.image" alt="Aamir Almani" loading="lazy">
+      </a>
+    </div>
+  </div>
+</div>

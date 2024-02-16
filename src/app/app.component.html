@@ -1,0 +1,5 @@
+<app-preloader *ngIf="(showPreloader$ | async)"></app-preloader>
+<div *ngIf="!(showPreloader$ | async)">
+  <router-outlet></router-outlet>
+
+</div>

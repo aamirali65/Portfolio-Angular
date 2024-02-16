@@ -1,0 +1,48 @@
+.main-div{
+  position: relative;
+  z-index: 9;
+  margin: 0.5rem 2.8rem;
+}
+.address{
+  background-color: #222222;
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border-radius: 10px;
+  width: 80%;
+}
+ul li{
+  list-style: none;
+  margin-top: 1.2rem;
+}
+.address i{
+  font-size: 20px;
+  font-weight: 700;
+  color: #eb4a4c;
+}
+.address a{
+  transition: 0.3s ease-in-out;
+  color: #fff;
+}
+.address a:hover{
+  color: #eb4a4c;
+}
+.contact li input, textarea{
+  padding: 20px 30px;
+  background-color: #222222;
+  color: gray;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.contact ul{
+  padding: 0;
+}
+.email{
+  padding-left: 20px;
+}
+.lix{
+  display: flex;
+}

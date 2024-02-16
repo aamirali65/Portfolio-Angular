@@ -1,0 +1,44 @@
+.image{
+  width: 300px;
+  margin: auto;
+}
+.image img{
+  width: 100%;
+  border-radius: 5%;
+}
+.content h3{
+  color: #EB4A4C !important;
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-size: 55px;
+  font-family: 'poppins' !important;
+}
+.content h3 span{
+  color: #fff !important;
+}
+.content .job{
+  color: #fff !important;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 23px;
+  font-family: 'poppins' !important;
+}
+.content .text{
+  color: gray;
+  font-family: 'poppins' !important;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-right: 25%;
+}
+.extra-div{
+  position: relative;
+  z-index: 9 !important;
+  transform: translateY(3rem);
+  margin: 0 5rem;
+}
+.lines{
+  margin-right: 25%;
+    padding-bottom: 1%;
+    border-bottom: 1px dashed rgba(128, 128, 128, 0.353);
+    margin-bottom: 20px;
+}
