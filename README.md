@@ -1,6 +1,6 @@
 # Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+This project was live at https://aamirali65.github.io/Portfolio-Angular/
 
 ## Development server
 
